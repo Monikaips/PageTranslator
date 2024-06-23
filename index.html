@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Page Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>One Page Translator</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#team">Team</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <p id="demo"></p>
+    </nav>
+    <section id="home">
+        <h1>Welcome to One Page Translator</h1>
+        <p>Breaking down language barriers and bringing people closer together.</p>
+    </section>
+    <section id="about" class="about-us">
+        <h1>About Us</h1>
+        <p>Welcome to One Page Translator, where our mission is to break down language barriers and bring people closer together. We believe that effective communication is the cornerstone of global connection and understanding.</p>
+        <p>Our team is dedicated to providing top-notch translation services, ensuring that your message is accurately and eloquently conveyed in any language you require.</p>
+    </section>
+    <section id="team" class="our-team">
+        <h1>Our Team</h1>
+        <p>Our team consists of experienced linguists and language enthusiasts who are passionate about the art of translation. Each team member brings a wealth of knowledge and expertise in various languages and dialects, ensuring the highest quality of service for our clients.</p>
+    </section>
+    <section id="services" class="services">
+        <h1>Services</h1>
+        <p>At One Page Translator, we offer a wide range of translation services, including document translation, website localization, and real-time interpretation. Our services are tailored to meet the diverse needs of our clients across different industries.</p>
+        <p>We pride ourselves on our accuracy, cultural sensitivity, and quick turnaround times, making us a trusted partner for all your translation needs.</p>
+    </section>
+    <section id="contact" class="contact-us">
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="form-response"></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 One Page Translator. All rights reserved.</p>
+    </footer>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="script.js"></script>
+</body>
+</html>
